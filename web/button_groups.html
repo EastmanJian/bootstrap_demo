@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>Button Groups - Set Sizes</h2>
+    <p>Add class .btn-group-* to size all buttons in a button group.</p>
+    <h3>Large Buttons:</h3>
+    <div class="btn-group btn-group-lg">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+    <h3>Extra Small Buttons:</h3>
+    <div class="btn-group btn-group-xs">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+
+    <hr/>
+
+    <h2>Vertical Button Group</h2>
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+    </div>
+
+    <hr/>
+
+    <h2>Justified Button Groups</h2>
+    <p>Bootstrap 4 removed .btn-group-justified. As a replacement you can use &lt;div class=&quot;btn-group d-flex&quot;
+        role=&quot;group&quot;&gt;&lt;/div&gt; as a wrapper around elements with .w-100.</p>
+    <div class="btn-group d-flex" role="group">
+        <a href="#" class="btn btn-primary w-100">Apple</a>
+        <a href="#" class="btn btn-primary w-100">Samsung</a>
+        <a href="#" class="btn btn-primary w-100">Sony</a>
+    </div>
+
+    <hr/>
+
+    <h2>Nesting Button Groups</h2>
+    <p>Nest button groups to create drop down menus:</p>
+    <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <div class="btn-group" role="group">
+            <button id="btnGroupDro2" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sony
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">Tablet</a>
+                <a class="dropdown-item" href="#">Smartphone</a>
+            </div>
+        </div>
+    </div>
+
+    <br/><br/>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Sony</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Tablet</a>
+            <a class="dropdown-item" href="#">Smartphone</a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
