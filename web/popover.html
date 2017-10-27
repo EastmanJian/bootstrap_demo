@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <br/>
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title"
+            data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover
+    </button>
+    <hr/>
+
+    <h3>Popover Position</h3>
+    <ul>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a></li>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Bottom</a></li>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">Left</a></li>
+        <li><a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right</a></li>
+    </ul>
+    <hr/>
+
+    <h3>Popover Dismissal</h3>
+    <a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="focus"
+       data-content="Click anywhere in the document to close this popover">Click me</a>
+    <hr/>
+
+    <h3>Popover Hover</h3>
+    <a href="#" title="Header" data-toggle="popover" data-content="Some content">Click Me</a><br>
+    <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>
+
+</div>
+
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
+</body>
+</html>
