@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .bd-highlight {
+        background-color: rgba(86, 61, 124, .15);
+        border: 1px solid rgba(86, 61, 124, .15);
+    }
+    .align-eg {
+        height: 5rem;
+    }
+</style>
+<body>
+
+<div class="container">
+    <br/>
+    <h2>flexbox basic</h2>
+    <div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
+    <hr/>
+
+    <h2>inline flexbox</h2>
+    <div class="d-inline-flex p-2 bd-highlight">I'm an inline flexbox container!</div>
+    <hr/>
+
+    <h2>Direction</h2>
+    <h4>flex-row</h4>
+    <div class="d-flex flex-row bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>flex-row-reverse</h4>
+    <div class="d-flex flex-row-reverse bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/><br/>
+    <h4>flex-column</h4>
+    <div class="d-flex flex-column bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>flex-column-reverse</h4>
+    <div class="d-flex flex-column-reverse">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <hr/>
+
+    <h2>Justify Content</h2>
+    <h4>justify-content-start</h4>
+    <div class="d-flex justify-content-start bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>justify-content-end</h4>
+    <div class="d-flex justify-content-end bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>justify-content-center</h4>
+    <div class="d-flex justify-content-center bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>justify-content-between</h4>
+    <div class="d-flex justify-content-between bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>justify-content-around</h4>
+    <div class="d-flex justify-content-around bd-highlight">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <hr/>
+
+    <h2>Align items</h2>
+    <h4>align-items-start</h4>
+    <div class="d-flex align-items-start bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-items-end</h4>
+    <div class="d-flex align-items-end bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-items-center</h4>
+    <div class="d-flex align-items-center bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-items-baseline</h4>
+    <div class="d-flex align-items-baseline bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-items-stretch</h4>
+    <div class="d-flex align-items-stretch bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <hr/>
+
+
+    <h2>Align Self</h2>
+    <h4>align-self-start</h4>
+    <div class="d-flex align-items-stretch bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 align-self-start bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-self-end</h4>
+    <div class="d-flex align-items-stretch bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 align-self-end bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-self-center</h4>
+    <div class="d-flex align-items-stretch bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 align-self-center bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-self-baseline</h4>
+    <div class="d-flex align-items-stretch bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 align-self-baseline bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <br/>
+    <h4>align-self-stretch</h4>
+    <div class="d-flex align-items-stretch bd-highlight align-eg">
+        <div class="p-2 bd-highlight">Flex item 1</div>
+        <div class="p-2 align-self-stretch bd-highlight">Flex item 2</div>
+        <div class="p-2 bd-highlight">Flex item 3</div>
+    </div>
+    <hr/>
+
+    <h2>Auto Margins, mr-auto, ml-auto</h2>
+    <div class="d-flex bd-highlight">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <div class="d-flex bd-highlight">
+        <div class="mr-auto p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <div class="d-flex bd-highlight">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="ml-auto p-2 bd-highlight">Flex item</div>
+    </div>
+    <hr/>
+
+    <h2>With align-items, mb-auto, mt-auto</h2>
+    <div class="d-flex align-items-start flex-column bd-highlight" style="height: 200px;">
+        <div class="mb-auto p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <div class="d-flex align-items-end flex-column bd-highlight" style="height: 200px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="mt-auto p-2 bd-highlight">Flex item</div>
+    </div>
+    <hr/>
+
+    <h2>Wrap</h2>
+    <h4>flex-nowrap</h4>
+    <div class="d-flex flex-nowrap bd-highlight">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>flex-wrap</h4>
+    <div class="d-flex flex-wrap bd-highlight">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>flex-wrap-reverse</h4>
+    <div class="d-flex flex-wrap-reverse bd-highlight">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <hr/>
+
+    <h2>Order</h2>
+    <div class="d-flex flex-nowrap bd-highlight">
+        <div class="order-3 p-2 bd-highlight">First flex item</div>
+        <div class="order-2 p-2 bd-highlight">Second flex item</div>
+        <div class="order-1 p-2 bd-highlight">Third flex item</div>
+    </div>
+    <hr/>
+
+    <h2>Align Content</h2>
+    <h4>align-content-start</h4>
+    <div class="d-flex align-content-start flex-wrap bd-highlight" style="height: 150px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>align-content-end</h4>
+    <div class="d-flex align-content-end flex-wrap bd-highlight" style="height: 150px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>align-content-center</h4>
+    <div class="d-flex align-content-center flex-wrap bd-highlight" style="height: 150px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>align-content-between</h4>
+    <div class="d-flex align-content-between flex-wrap bd-highlight" style="height: 150px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>align-content-around</h4>
+    <div class="d-flex align-content-around flex-wrap bd-highlight" style="height: 150px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+    <h4>align-content-stretch</h4>
+    <div class="d-flex align-content-stretch flex-wrap bd-highlight" style="height: 150px;">
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+        <div class="p-2 bd-highlight">Flex item</div>
+    </div>
+    <br/>
+</div>
+
+
+</body>
+</html>
