@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+    <h2>Using clearfix</h2>
+    <p>Without the clearfix the wrapping div would not span around the buttons which would cause a broken layout.</p>
+    <div class="bg-info clearfix">
+        <button type="button" class="btn btn-secondary float-left">Example Button floated left</button>
+        <button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
+    </div>
+
+    <hr/>
+
+    <h2>Without clearfix</h2>
+    <div class="bg-info">
+        <button type="button" class="btn btn-secondary float-left">Example Button floated left</button>
+        <button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
+    </div>
+</div>
+
+
+</body>
+</html>
